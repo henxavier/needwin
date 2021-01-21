@@ -2,7 +2,7 @@ import React from 'react';
 import NavBarra from '../../componentes/NavBarra';
 import Footer from '../../componentes/Footer';
 
-function Valorant(){
+function Tierlist(){
     return(<>
 
     <NavBarra />
@@ -12,4 +12,4 @@ function Valorant(){
     </>);
 };
 
-export default Valorant
+export default Tierlist

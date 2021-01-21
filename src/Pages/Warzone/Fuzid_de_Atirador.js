@@ -99,6 +99,66 @@ function Atirador(){
                         </Card.Body>
                     </Card>
                 </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">TYPE 63</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/TYPE63.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">M16 (CW)</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/M16 CW.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">AUG (CW)</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/AUG CW.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">FAD 14</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/FAD14.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
             </Row>
         </Container>
 

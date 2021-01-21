@@ -100,6 +100,51 @@ function Escopetas(){
                         </Card.Body>
                     </Card>
                 </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">HAUER 77</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/HAUER77.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">GALLO SA12</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/GALLOSA12.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">STREETSWEEPER</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/STREETSWEEPER.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
             </Row>
         </Container>
 

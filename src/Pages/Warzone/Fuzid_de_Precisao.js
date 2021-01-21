@@ -70,6 +70,51 @@ function Precisao(){
                         </Card.Body>
                     </Card>
                 </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">PELINGTON 703</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/PELINGTON703.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">LW3 - TUNDRA</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/LW3TUNDRA.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">M82</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/M82.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
             </Row>
         </Container>
 

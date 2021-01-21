@@ -1,7 +1,7 @@
 import React from 'react'
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 
-import Valorant from './Pages/Valorant'
+import Tierlist from './Pages/Tierlist'
 import Main from './Pages/Main'
 import Escopetas from './Pages/Warzone/Escopetas'
 import Assalt from './Pages/Warzone/Fuzis_de_Assalto'
@@ -15,14 +15,14 @@ function Routes() {
     return(
         <BrowserRouter>
             <Switch>
-                <Route path="/" exact component={Main} />
+                <Route path="/main" exact component={Main} />
                 <Route path="/escopetas" component={Escopetas} />
                 <Route path="/assalt" component={Assalt} />
                 <Route path="/precisao" component={Precisao} />
                 <Route path="/mts" component={MTS} />
                 <Route path="/smts" component={SMTS} />
                 <Route path="/atirador" component={Atirador} />
-                <Route path="/Valorant" component={Valorant} />
+                <Route path="/Tierlist" component={Tierlist} />
             </Switch>
         </BrowserRouter>
     )

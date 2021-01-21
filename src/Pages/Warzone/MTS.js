@@ -115,6 +115,51 @@ function MTS(){
                         </Card.Body>
                     </Card>
                 </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">STONER 63</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/STONE63.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">RPD</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/RPD.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">M60</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/M60.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
             </Row>
         </Container>
 

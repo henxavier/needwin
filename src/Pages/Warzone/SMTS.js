@@ -145,6 +145,96 @@ function SMTS(){
                         </Card.Body>
                     </Card>
                 </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">MP5 (CW)</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/MP5 CW.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">MILANO 821</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/MILANO821.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">AK-74U</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/AK-74U.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">KSP 45</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/KSP45.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">BULLFROG</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/BULLFROG.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">MAC-10</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/MAC10.png" />
+                            <Card.Text>
+                            <strong>BOCA:</strong> Freio de Boca 9<br/>
+                            <strong>CANO:</strong> Força-Tarefa 5,9"<br/>
+                            <strong>ACOMPLAMENTO:</strong> Empunhadura de Patrulha<br/>
+                            <strong>MUNIÇÃO:</strong> Carregador Rápido de Rajada 53 prj<br/>
+                            <strong>CORONHA:</strong> Coronha de Arame<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
             </Row>
         </Container>
 

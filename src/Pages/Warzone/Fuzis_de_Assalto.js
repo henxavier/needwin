@@ -14,7 +14,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">KILO 141</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/" />
+                        <Card.Img variant="top" src="./img-armas/kilo.png" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor mololitico<br/>
                             <strong>CANO:</strong> Singuard Arms 19.8″ Prowler<br/>
@@ -74,7 +74,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">ODEN</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/" />
+                        <Card.Img variant="top" src="./img-armas/oden.png" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor Colosso<br/>
                             <strong>CANO:</strong> Oden 810 mm de fábrica<br/>
@@ -231,6 +231,66 @@ function Assalt(){
                             <strong>ALÇA:</strong> Tiras Elásticas GRU<br/>
                             <strong>LENTE:</strong> Axial Arms 3,0x<br/>
                             <strong>CORONHA:</strong> Fita aderente pontilhada<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">KRIG 6</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/KRIG6.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">QBZ-83</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/QBZ83.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">FAAC 1</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/FAAC1.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className="armascard" md="4" sm="6">
+                    <Card>
+                        <Card.Body>
+                            <Card.Title className="titulo-arma">GROZA</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/GROZA.png" />
+                            <Card.Text>
+                            <strong>CANO:</strong> INDEFINIDO<br/>
+                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
+                            <strong>ALÇA:</strong> INDEFINIDO<br/>
+                            <strong>LENTE:</strong> INDEFINIDO<br/>
+                            <strong>CORONHA:</strong> INDEFINIDO<br/>
                             </Card.Text>
                         </Card.Body>
                     </Card>
