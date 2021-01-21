@@ -15,7 +15,7 @@ function Routes() {
     return(
         <BrowserRouter>
             <Switch>
-                <Route path="/main" exact component={Main} />
+                <Route path="/" exact component={Main} />
                 <Route path="/escopetas" component={Escopetas} />
                 <Route path="/assalt" component={Assalt} />
                 <Route path="/precisao" component={Precisao} />
