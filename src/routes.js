@@ -2,6 +2,7 @@ import React from 'react'
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 
 import Tierlist from './Pages/Tierlist'
+import Campeonatos from './Pages/Campeonatos'
 import Main from './Pages/Main'
 import Escopetas from './Pages/Warzone/Escopetas'
 import Assalt from './Pages/Warzone/Fuzis_de_Assalto'
@@ -22,7 +23,8 @@ function Routes() {
                 <Route path="/mts" component={MTS} />
                 <Route path="/smts" component={SMTS} />
                 <Route path="/atirador" component={Atirador} />
-                <Route path="/Tierlist" component={Tierlist} />
+                <Route path="/tierlist" component={Tierlist} />
+                <Route path="/campeonatos" component={Campeonatos} />
             </Switch>
         </BrowserRouter>
     )

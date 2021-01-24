@@ -31,17 +31,17 @@ function NavBarra() {
           <NavDropdown.Item><Link to="/precisao">Fuzis de Precisão</Link></NavDropdown.Item>
         </NavDropdown>
 
-        <Nav.Link to="/Tierlist">TIERLIST</Nav.Link>
+        <Nav.Link><Link to="/tierlist">TIERLIST</Link></Nav.Link>
 
-        <Nav.Link href="/">CAMPEONATOS</Nav.Link>
+        <Nav.Link href="/campeonatos">CAMPEONATOS</Nav.Link>
         
       </Nav>
 
       <Nav>
-        <Nav.Link href="https://www.facebook.com/needwinoficial"><FaFacebookSquare /></Nav.Link>
-        <Nav.Link href="#memes"><FaDiscord /></Nav.Link>
-        <Nav.Link href="https://www.youtube.com/channel/UCyFvFKPM-3qT-a-L2ZVfkOQ"><FaYoutube /></Nav.Link>
-        <Nav.Link href="https://www.instagram.com/needwinoficial/"><FaInstagram /></Nav.Link>
+        <Nav.Link href="https://www.facebook.com/needwinoficial" target="_blank"><FaFacebookSquare /></Nav.Link>
+        <Nav.Link href="https://discord.gg/MwKA99sUJs" target="_blank"><FaDiscord /></Nav.Link>
+        <Nav.Link href="https://www.youtube.com/channel/UCyFvFKPM-3qT-a-L2ZVfkOQ" target="_blank"><FaYoutube /></Nav.Link>
+        <Nav.Link href="https://www.instagram.com/needwinoficial/" target="_blank"><FaInstagram /></Nav.Link>
       </Nav>
     </Navbar.Collapse>
     </Navbar>

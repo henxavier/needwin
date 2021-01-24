@@ -13,8 +13,8 @@ function Footer() {
       <Image src="img/xavier.png" className="img-footer"/>
       <p>Olá... Eu sou o Xavier!</p>
       <p>Sou desenvolvedor e criador deste projeto. Me acompanhe.</p>
-        <a href="https://www.facebook.com/henxavier"><FaFacebookSquare /></a>
-        <a href="/home"><FaTwitch /></a>
+        <a href="https://www.facebook.com/henxavier" target="_blank" rel="noreferrer"><FaFacebookSquare /></a>
+        <a href="https://www.twitch.tv/henxavier" target="_blank" rel="noreferrer"><FaTwitch /></a>
 
       </Col>
         
@@ -22,9 +22,9 @@ function Footer() {
       <Col className="rodape-conteudo">
       <Image src="img/needwin.svg" className="img-footer"/>
       <p>Projeto Need Win, nos apoie!</p>
-        <a href="https://www.facebook.com/needwinoficial"><FaFacebookSquare /></a>
-        <a href="https://www.instagram.com/needwinoficial/"><FaInstagram /></a>
-        <a href="https://www.youtube.com/channel/UCyFvFKPM-3qT-a-L2ZVfkOQ"><FaYoutube /></a>
+        <a href="https://www.facebook.com/needwinoficial" target="_blank" rel="noreferrer"><FaFacebookSquare /></a>
+        <a href="https://www.instagram.com/needwinoficial/" target="_blank" rel="noreferrer"><FaInstagram /></a>
+        <a href="https://www.youtube.com/channel/UCyFvFKPM-3qT-a-L2ZVfkOQ" target="_blank" rel="noreferrer"><FaYoutube /></a>
 
       </Col>
     </Row>

@@ -13,13 +13,19 @@ function Main(){
   <Container fluid className=" my-5">
   <Image src="img/warzone.png" fluid/>
   <h1>WARZONE</h1>
-  <span>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</span>
+  <span>COD: Warzone é o Battle Royale da popular franquia de tiro em primeira pessoa Call of Duty. Ele pode ser baixado gratuitamente para PC, PlayStation 4 e Xbox One e também tem como facilidade o crossplay com todas essas plataformas. <br/>
+        Embora seja um jogo gratuito, tem como modo de sustentabilidade passes de batalha e skins avulsas na lojas<br/>
+        Você pode fazer o download de Warzone na Battle.net (PC) e nas lojas digitais dos consoles, PlayStation Store e Xbox Game Store.
+</span>
   </Container>
 
   <Container fluid className=" my-5">
   <Image src="img/camps.png" fluid/>
   <h1>COMPETIÇÕES</h1>
-  <span>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</span>
+  <span>Need Win é um projeto onde foca juntar o competitivo com o casual, onde a emoção toma conta, a ansiedade de jogar e competir contra outros jogadores, esse é o nosso foco. <br/>
+        Em parcerias temos o foco de crescer esse projeto e ultrapassando barreiras.<br/>
+        Se você é Streamer e gosta de competições, faça parte deste time!
+</span>
   </Container>
 </Container>
 
