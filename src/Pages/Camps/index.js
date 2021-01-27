@@ -29,7 +29,7 @@ function Campeonatos(){
                 <Card>
                     <Card.Body>
                         <Card.Title className="titulo-arma">REGULAMENTO DO CAMPEONATO</Card.Title>
-                        <Link href="/">EM BREVE</Link>
+                        <Link href="">EM BREVE</Link>
                         <Card.Text>
                         Regras tem que ser impostas e se seguidas para o bem estar de todos os jogadores, a intenção além do prazer de jogar, possam se divertir também!
                         </Card.Text>
@@ -40,7 +40,7 @@ function Campeonatos(){
                 <Card>
                     <Card.Body>
                         <Card.Title className="titulo-arma">INSCRIÇÕES DO CAMPEONATO</Card.Title>
-                        <Link href="/">EM BREVE</Link>
+                        <Link href="">EM BREVE</Link>
                         <Card.Text>
                         Inscrições rapidas para organização da competição e que tudo seja transparente.
                         </Card.Text>

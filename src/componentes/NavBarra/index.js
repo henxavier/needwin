@@ -33,7 +33,7 @@ function NavBarra() {
 
         <Nav.Link><Link to="/tierlist">TIERLIST</Link></Nav.Link>
 
-        <Nav.Link href="/campeonatos">CAMPEONATOS</Nav.Link>
+        <Nav.Link href="/camps">CAMPEONATOS</Nav.Link>
         
       </Nav>
 

@@ -1,12 +1,13 @@
 import React, {useState} from 'react';
-import { Col, Container, Row, Card, Button } from 'react-bootstrap';
+import { Col, Container, Row, Card, Button, Modal } from 'react-bootstrap';
 import NavBarra from '../../componentes/NavBarra';
 import Footer from '../../componentes/Footer';
-import Modal from '../../componentes/Modal'
 import "../../App.css";
 
 function Assalt(){
-    const [isOpen, setIsOpen] = useState(false)
+    const [kilo, kiloShow] = useState(false);
+    const [oden, odenShow] = useState(false)
+
     return(<>
 
     <NavBarra />
@@ -25,15 +26,12 @@ function Assalt(){
                             <strong>MUNIÇÃO:</strong> Carregador de 60 Projéteis<br/>
                             <strong>LENTE:</strong> Minirrefletora<br/>
                             </Card.Text>
-                              
-                            <div onClick={() => console.log('clicked')}>
-                                <Button onClick={() => setIsOpen(true)}>Veja o Video</Button>
-                                <Modal open={isOpen} onClose={() => setIsOpen(false)}>
-                                    <Container fluid className="video-play">
-                                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/z9owtYKX0PM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </Container>
-                                </Modal>
-                            </div>
+
+
+                            <Button onClick={() => kiloShow(true)}>Assista o Video</Button>{' '}
+                            <Modal className="m-0" show={kilo} onHide={() => kiloShow(false)} centered>
+                                <Modal.Body className="video-base"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/z9owtYKX0PM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Modal.Body>
+                            </Modal>
 
                         </Card.Body>
                     </Card>
@@ -96,14 +94,11 @@ function Assalt(){
                             <strong>MUNIÇÃO:</strong> Carregadores de 30 projéteis<br/>
                             </Card.Text>
 
-                            <div onClick={() => console.log('clicked')}>
-                                <Button onClick={() => setIsOpen(true)}>Veja o Video</Button>
-                                <Modal open={isOpen} onClose={() => setIsOpen(false)}>
-                                    <Container fluid className="video-play">
-                                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/jV8WMcXcsBo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </Container>
-                                </Modal>
-                            </div>
+
+                            <Button onClick={() => odenShow(true)}>Assista o Video</Button>
+                            <Modal show={oden} onHide={() => odenShow(false)} centered>
+                                <Modal.Body  className="video-base"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/jV8WMcXcsBo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Modal.Body>
+                            </Modal>
 
                         </Card.Body>
                     </Card>
