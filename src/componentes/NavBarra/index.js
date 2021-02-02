@@ -32,8 +32,7 @@ function NavBarra() {
         </NavDropdown>
 
         <Nav.Link><Link to="/tierlist">TIERLIST</Link></Nav.Link>
-
-        <Nav.Link href="/camps">CAMPEONATOS</Nav.Link>
+        <Nav.Link><Link to="/requisitos">REQUISITOS</Link></Nav.Link>
         
       </Nav>
 

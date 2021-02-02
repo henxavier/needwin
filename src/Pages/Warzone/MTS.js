@@ -14,7 +14,7 @@ function MTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">PKM</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/PKM.PNG" />
+                        <Card.Img variant="top" src="./img-armas/PKM.PNG" alt="PKM" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor monolitico<br/>
                             <strong>CANO:</strong> Cano Estendido 26,9"<br/>
@@ -29,7 +29,7 @@ function MTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">SA87</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/SA87.PNG" />
+                        <Card.Img variant="top" src="./img-armas/SA87.PNG" alt="SA87" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor monolitico<br/>
                             <strong>LASER:</strong> Laser Tático<br/>
@@ -44,7 +44,7 @@ function MTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">M91</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/M91.PNG" />
+                        <Card.Img variant="top" src="./img-armas/M91.PNG" alt="M91" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor mololitico<br/>
                             <strong>CANO:</strong> M91 pesado<br/>
@@ -59,7 +59,7 @@ function MTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">MG34</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/MG34.PNG" />
+                        <Card.Img variant="top" src="./img-armas/MG34.PNG" alt="MG34" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor monolitico<br/>
                             <strong>CANO:</strong> FSS Brute<br/>
@@ -74,7 +74,7 @@ function MTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">HOLGER-26</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/HOLGER-26.PNG" />
+                        <Card.Img variant="top" src="./img-armas/HOLGER-26.PNG" alt="Holger-26" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor monolitico<br/>
                             <strong>LASER:</strong> Laser Tático<br/>
@@ -89,7 +89,7 @@ function MTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">BRUEN MK9</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/BRUEN MK9.PNG" />
+                        <Card.Img variant="top" src="./img-armas/BRUEN MK9.PNG" alt="Bruen MK9" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor Monolitico<br/>
                             <strong>CANO:</strong> XRK Summit 26,8"<br/>
@@ -104,7 +104,7 @@ function MTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">ML FINN</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/ML FINN.PNG" />
+                        <Card.Img variant="top" src="./img-armas/ML FINN.PNG" alt="ML Finn" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor Monolitico<br/>
                             <strong>CANO:</strong> XRK LongShot Adverso<br/>
@@ -119,7 +119,7 @@ function MTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">STONER 63</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/STONE63.png" />
+                        <Card.Img variant="top" src="./img-armas/STONE63.png" alt="Stoner 63" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
@@ -134,7 +134,7 @@ function MTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">RPD</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/RPD.png" />
+                        <Card.Img variant="top" src="./img-armas/RPD.png" alt="RPD" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
@@ -149,7 +149,7 @@ function MTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">M60</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/M60.png" />
+                        <Card.Img variant="top" src="./img-armas/M60.png" alt="M60" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>

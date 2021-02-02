@@ -1,8 +1,9 @@
 import React from 'react'
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 
+
+import Requisitos from './Pages/Requisitos'
 import Tierlist from './Pages/Tierlist'
-import Camps from './Pages/Camps'
 import Main from './Pages/Main'
 import Escopetas from './Pages/Warzone/Escopetas'
 import Assalt from './Pages/Warzone/Fuzis_de_Assalto'
@@ -11,12 +12,13 @@ import MTS from './Pages/Warzone/MTS'
 import Atirador from './Pages/Warzone/Fuzid_de_Atirador'
 import SMTS from './Pages/Warzone/SMTS'
 
+
 function Routes() {
 
     return(
         <BrowserRouter>
             <Switch>
-                <Route path="/" exact component={Main} />
+                <Route path="/main" exact component={Main} />
                 <Route path="/escopetas" component={Escopetas} />
                 <Route path="/assalt" component={Assalt} />
                 <Route path="/precisao" component={Precisao} />
@@ -24,7 +26,7 @@ function Routes() {
                 <Route path="/smts" component={SMTS} />
                 <Route path="/atirador" component={Atirador} />
                 <Route path="/tierlist" component={Tierlist} />
-                <Route path="/camps" component={Camps} />
+                <Route path="/requisitos" component={Requisitos} />
             </Switch>
         </BrowserRouter>
     )

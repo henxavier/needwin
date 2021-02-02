@@ -86,16 +86,32 @@
 /* ---------------ARMAS FIM--------------*/
 
 /* ---------------TIERLIST INICIO--------------*/
-.tierlist {
-    margin-top: 5em;
-    color: white;
-}
 
 /* ---------------TIERLIST FIM--------------*/
 
+
+/* ---------------display video youtube INICIO--------------*/
 .video-base {
     width: 150%;
     height: 28em;
     background-color: none;
     background-color: #1A1A1A;
   }
+
+/* ---------------display video youtube FIM--------------*/
+
+/* ---------------TABELA DE REQUISITOS INICIO--------------*/
+.tabela-req{
+    margin-top: 5em;
+    color: white;
+}
+
+.tabela-req tr{
+    color: white;
+    font-size: 1.5em;
+}
+
+.tabela-req table{
+    margin-top: 3em;
+}
+/* ---------------TABELA DE REQUISITOS FIM--------------*/

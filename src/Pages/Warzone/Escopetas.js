@@ -16,7 +16,7 @@ function Escopetas(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">MODELO 680</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/MODELO 680.PNG" />
+                        <Card.Img variant="top" src="./img-armas/MODELO 680.PNG" alt="Modelo 680" />
                             <Card.Text>
                             <strong>CANO:</strong> XRK 14,0" SWAT<br/>
                             <strong>LASER:</strong> Laser de 5 mW<br/>
@@ -31,7 +31,7 @@ function Escopetas(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">ESCOPETA R9-0</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/ESCOPETA R9-0.PNG" />
+                        <Card.Img variant="top" src="./img-armas/ESCOPETA R9-0.PNG" alt="Escopeta R9-0" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor Monolitico<br/>
                             <strong>CANO:</strong> FORGE TAC Sentinela<br/>
@@ -46,7 +46,7 @@ function Escopetas(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">725</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/725.PNG" />
+                        <Card.Img variant="top" src="./img-armas/725.PNG" alt="725" />
                             <Card.Text>
                             <strong>CANO:</strong> Cano Liso Tempus<br/>
                             <strong>LASER:</strong> Laser de 5 mW<br/>
@@ -61,7 +61,7 @@ function Escopetas(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">ORIGIN 12</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/ORIGIN 12.PNG" />
+                        <Card.Img variant="top" src="./img-armas/ORIGIN 12.PNG" alt="Origin 12" />
                             <Card.Text>
                             <strong>BOCA:</strong> Estrangulador<br/>
                             <strong>CANO:</strong> FORGE TAC Impaler<br/>
@@ -76,7 +76,7 @@ function Escopetas(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">VLK ROGUE</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/VLK ROGUE.PNG" />
+                        <Card.Img variant="top" src="./img-armas/VLK ROGUE.PNG" alt="VLK Rogue" />
                             <Card.Text>
                             <strong>CANO:</strong> Warlord 16"<br/>
                             <strong>LASER:</strong> Laser de 5 mW<br/>
@@ -91,7 +91,7 @@ function Escopetas(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">JAK-12</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/JAK-12.png" />
+                        <Card.Img variant="top" src="./img-armas/JAK-12.png" alt="JAK-12" />
                             <Card.Text>
                             <strong>BOCA:</strong> FORGE TAC Marauder<br/>
                             <strong>CANO:</strong> ZRL J-3600 Torrent<br/>
@@ -106,7 +106,7 @@ function Escopetas(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">HAUER 77</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/HAUER77.png" />
+                        <Card.Img variant="top" src="./img-armas/HAUER77.png" alt="Hauer 77" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
@@ -121,7 +121,7 @@ function Escopetas(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">GALLO SA12</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/GALLOSA12.png" />
+                        <Card.Img variant="top" src="./img-armas/GALLOSA12.png" alt="Gallo SA12" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
@@ -136,7 +136,7 @@ function Escopetas(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">STREETSWEEPER</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/STREETSWEEPER.png" />
+                        <Card.Img variant="top" src="./img-armas/STREETSWEEPER.png" alt="STREETSWEEPER" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>

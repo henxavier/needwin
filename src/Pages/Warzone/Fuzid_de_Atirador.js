@@ -13,7 +13,7 @@ function Atirador(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">EBR-14</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/EBR-14.PNG" />
+                        <Card.Img variant="top" src="./img-armas/EBR-14.PNG" alt="EBR-14" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor Monolitico<br/>
                             <strong>CANO:</strong> FORGE TAC Precisão 22,0"<br/>
@@ -28,7 +28,7 @@ function Atirador(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">CARABINA MK2</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/CARABINA MK2.PNG" />
+                        <Card.Img variant="top" src="./img-armas/CARABINA MK2.PNG" alt="Carabina MK2" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor monolitico<br/>
                             <strong>CANO:</strong> FSS 24,0" de fábrica<br/>
@@ -43,7 +43,7 @@ function Atirador(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">KAR98K</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/KAR98K.PNG" />
+                        <Card.Img variant="top" src="./img-armas/KAR98K.PNG" alt="Kar98k" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor monolitico<br/>
                             <strong>CANO:</strong> Singuard personalizado 27,6"<br/>
@@ -58,7 +58,7 @@ function Atirador(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">BESTA</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/BESTA.PNG" />
+                        <Card.Img variant="top" src="./img-armas/BESTA.PNG" alt="Besta" />
                             <Card.Text>
                             <strong>CABO:</strong> Cabo de 28 fios<br/>
                             <strong>BRAÇOS:</strong> XRK Thunder 200 Lb<br/>
@@ -73,7 +73,7 @@ function Atirador(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">SKS</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/SKS.PNG" />
+                        <Card.Img variant="top" src="./img-armas/SKS.PNG" alt="SKS" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor monolitico<br/>
                             <strong>CANO:</strong> M59/66 FSS 22"<br/>
@@ -88,7 +88,7 @@ function Atirador(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">SP-R 208</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/SPR208.png" />
+                        <Card.Img variant="top" src="./img-armas/SPR208.png" alt="SP-R 208" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor monolitico<br/>
                             <strong>CANO:</strong> SP-R 26"<br/>
@@ -103,7 +103,7 @@ function Atirador(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">TYPE 63</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/TYPE63.png" />
+                        <Card.Img variant="top" src="./img-armas/TYPE63.png" alt="Type 63" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
@@ -118,7 +118,7 @@ function Atirador(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">M16 (CW)</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/M16 CW.png" />
+                        <Card.Img variant="top" src="./img-armas/M16 CW.png" alt="M16 (Cold War)" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
@@ -133,7 +133,7 @@ function Atirador(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">AUG (CW)</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/AUG CW.png" />
+                        <Card.Img variant="top" src="./img-armas/AUG CW.png" alt="AUG (Cold War)" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
@@ -148,7 +148,7 @@ function Atirador(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">FAD 14</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/FAD14.png" />
+                        <Card.Img variant="top" src="./img-armas/FAD14.png" alt="FAD 14" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>

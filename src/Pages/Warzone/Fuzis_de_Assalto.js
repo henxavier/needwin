@@ -18,7 +18,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">KILO 141</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/kilo.png" />
+                        <Card.Img variant="top" src="./img-armas/kilo.png" alt="Kilo 141" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor mololitico<br/>
                             <strong>CANO:</strong> Singuard Arms 19.8″ Prowler<br/>
@@ -40,7 +40,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">FAL</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/FAL.PNG" />
+                        <Card.Img variant="top" src="./img-armas/FAL.PNG" alt="FAL" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor mololitico<br/>
                             <strong>CANO:</strong> Atirador com XRK<br/>
@@ -55,7 +55,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">M4A1</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/M4A1.png" />
+                        <Card.Img variant="top" src="./img-armas/M4A1.png" alt="M4A1" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor mololitico<br/>
                             <strong>CANO:</strong> Coronha M16 Granadeira<br/>
@@ -70,7 +70,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">FR 5.56</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/FR 556.PNG" />
+                        <Card.Img variant="top" src="./img-armas/FR 556.PNG" alt="FR 5.56" />
                             <Card.Text>
                             <strong>BOCA:</strong> Compensador<br/>
                             <strong>CANO:</strong> FR 15,9" comando<br/>
@@ -85,7 +85,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">ODEN</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/oden.png" />
+                        <Card.Img variant="top" src="./img-armas/oden.png" alt="Oden" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor Colosso<br/>
                             <strong>CANO:</strong> Oden 810 mm de fábrica<br/>
@@ -107,7 +107,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">M13</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/M13.png" />
+                        <Card.Img variant="top" src="./img-armas/M13.png" alt="M13" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor mololitico<br/>
                             <strong>CANO:</strong> Forge TAC 20,0" LB<br/>
@@ -122,7 +122,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">FN SCAR 17</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/FN SCAR 17.PNG" />
+                        <Card.Img variant="top" src="./img-armas/FN SCAR 17.PNG" alt="FN Scar 17" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor mololitico<br/>
                             <strong>CANO:</strong> Forge TAC 20,0" LB<br/>
@@ -137,7 +137,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">AK-47</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/AK-47.PNG" />
+                        <Card.Img variant="top" src="./img-armas/AK-47.PNG" alt="AK-47" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor mololitico<br/>
                             <strong>CANO:</strong> Romeno 23,0"<br/>
@@ -152,7 +152,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">RAM-7</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/RAM-7.PNG" />
+                        <Card.Img variant="top" src="./img-armas/RAM-7.PNG" alt="RAM-7" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor mololitico<br/>
                             <strong>CANO:</strong> Ranger FSS<br/>
@@ -167,7 +167,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">GRAU 5.56</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/GRAU 556.png" />
+                        <Card.Img variant="top" src="./img-armas/GRAU 556.png" alt="Grau 5.56" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor mololitico<br/>
                             <strong>CANO:</strong> Tempus 26.4" Archangel<br/>
@@ -182,7 +182,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">CR-56 AMAX</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/CR-56 AMAX.PNG" />
+                        <Card.Img variant="top" src="./img-armas/CR-56 AMAX.PNG" alt="CR-56 AMAX" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor mololitico<br/>
                             <strong>CANO:</strong> XRK Zodiac S440<br/>
@@ -197,7 +197,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">AN-94</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/AN-94.PNG" />
+                        <Card.Img variant="top" src="./img-armas/AN-94.PNG" alt="AN-94" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor mololitico<br/>
                             <strong>CANO:</strong> AN-94 X-438 mm de fábrica<br/>
@@ -212,7 +212,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">AS VAL</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/AS VAL.png" />
+                        <Card.Img variant="top" src="./img-armas/AS VAL.png" alt="AS VAL" />
                             <Card.Text>
                             <strong>CANO:</strong> STOV SOF<br/>
                             <strong>LASER:</strong> Laser tático<br/>
@@ -227,7 +227,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">XM4 (CW)</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/XM4.png" />
+                        <Card.Img variant="top" src="./img-armas/XM4.png" alt="XM4 (Cold War)" />
                             <Card.Text>
                             <strong>BOCA:</strong> Freio de Boca 5.56<br/>
                             <strong>CANO:</strong> Pesado Reforçado 13,5"<br/>
@@ -242,7 +242,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">AK47 (CW)</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/AK47 CW.png" />
+                        <Card.Img variant="top" src="./img-armas/AK47 CW.png" alt="AK47 (Cold War)" />
                             <Card.Text>
                             <strong>CANO:</strong> Eliminador 18,2"<br/>
                             <strong>ACOPLAMENTO:</strong> Empunhadura Spetsnaz<br/>
@@ -257,7 +257,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">KRIG 6</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/KRIG6.png" />
+                        <Card.Img variant="top" src="./img-armas/KRIG6.png" alt="Krig 6" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
@@ -272,7 +272,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">QBZ-83</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/QBZ83.png" />
+                        <Card.Img variant="top" src="./img-armas/QBZ83.png" alt="QBZ-83" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
@@ -287,7 +287,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">FAAC 1</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/FAAC1.png" />
+                        <Card.Img variant="top" src="./img-armas/FAAC1.png" alt="FAAC 1" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
@@ -302,7 +302,7 @@ function Assalt(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">GROZA</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/GROZA.png" />
+                        <Card.Img variant="top" src="./img-armas/GROZA.png" alt="GROZA" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>

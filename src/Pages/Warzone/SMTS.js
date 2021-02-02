@@ -14,7 +14,7 @@ function SMTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">AUG</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/AUG.PNG" />
+                        <Card.Img variant="top" src="./img-armas/AUG.PNG" alt="AUG" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor mololitico<br/>
                             <strong>CANO:</strong> Cano Estendido 407 mm<br/>
@@ -29,7 +29,7 @@ function SMTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">P90</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/P90.PNG" />
+                        <Card.Img variant="top" src="./img-armas/P90.PNG" alt="P90" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor mololitico<br/>
                             <strong>LENTE:</strong> Mira em anel FSS<br/>
@@ -44,7 +44,7 @@ function SMTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">MP5</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/MP5.PNG" />
+                        <Card.Img variant="top" src="./img-armas/MP5.PNG" alt="MP5" />
                             <Card.Text>
                             <strong>CANO:</strong> Supressor integral mololitico<br/>
                             <strong>LASER:</strong> Laser de 5 mW<br/>
@@ -59,7 +59,7 @@ function SMTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">UZI</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/UZI.PNG" />
+                        <Card.Img variant="top" src="./img-armas/UZI.PNG" alt="UZI" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor mololitico<br/>
                             <strong>LASER:</strong> Laser de 5 mW<br/>
@@ -74,7 +74,7 @@ function SMTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">PP19 BIZON</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/PP19 BIZON.PNG" />
+                        <Card.Img variant="top" src="./img-armas/PP19 BIZON.PNG" alt="PP19 Bizon" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor mololitico<br/>
                             <strong>CANO:</strong> Aço 8,7"<br/>
@@ -89,7 +89,7 @@ function SMTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">MP7</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/MP7.PNG" />
+                        <Card.Img variant="top" src="./img-armas/MP7.PNG" alt="MP7" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor mololitico<br/>
                             <strong>LASER:</strong> Laser Tático<br/>
@@ -104,7 +104,7 @@ function SMTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">STRIKER 45</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/STRIKER 45.PNG" />
+                        <Card.Img variant="top" src="./img-armas/STRIKER 45.PNG" alt="Striker 45" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor mololitico<br/>
                             <strong>LENTE:</strong> Mira Refletora Monocular<br/>
@@ -119,7 +119,7 @@ function SMTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">FENNEC</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/FENNEC.PNG" />
+                        <Card.Img variant="top" src="./img-armas/FENNEC.PNG" alt="Fennec" />
                             <Card.Text>
                             <strong>CANO:</strong> ZLR 18" Deadfall<br/>
                             <strong>LASER:</strong> Laser de 5 mW<br/>
@@ -134,7 +134,7 @@ function SMTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">ISO</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/ISO.PNG" />
+                        <Card.Img variant="top" src="./img-armas/ISO.PNG" alt="ISO" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor mololitico<br/>
                             <strong>CANO:</strong> FSS Revolução<br/>
@@ -149,7 +149,7 @@ function SMTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">MP5 (CW)</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/MP5 CW.png" />
+                        <Card.Img variant="top" src="./img-armas/MP5 CW.png" alt="MP5 (Cold War)" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
@@ -164,7 +164,7 @@ function SMTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">MILANO 821</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/MILANO821.png" />
+                        <Card.Img variant="top" src="./img-armas/MILANO821.png" alt="Milano 821" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
@@ -179,7 +179,7 @@ function SMTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">AK-74U</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/AK-74U.png" />
+                        <Card.Img variant="top" src="./img-armas/AK-74U.png" alt="AK-74u" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
@@ -194,7 +194,7 @@ function SMTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">KSP 45</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/KSP45.png" />
+                        <Card.Img variant="top" src="./img-armas/KSP45.png" alt="KSP 45" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
@@ -209,7 +209,7 @@ function SMTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">BULLFROG</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/BULLFROG.png" />
+                        <Card.Img variant="top" src="./img-armas/BULLFROG.png" alt="Bullfrog" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
@@ -224,7 +224,7 @@ function SMTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">MAC-10</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/MAC10.png" />
+                        <Card.Img variant="top" src="./img-armas/MAC10.png" alt="MAC-10" />
                             <Card.Text>
                             <strong>BOCA:</strong> Freio de Boca 9<br/>
                             <strong>CANO:</strong> Força-Tarefa 5,9"<br/>

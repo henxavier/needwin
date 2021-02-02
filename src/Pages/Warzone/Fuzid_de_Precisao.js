@@ -14,7 +14,7 @@ function Precisao(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">DRAGUNOV</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/DRAGUNOV.PNG" />
+                        <Card.Img variant="top" src="./img-armas/DRAGUNOV.PNG" alt="Drgunov" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor monolitico<br/>
                             <strong>CANO:</strong> Cano Estandido 660mm<br/>
@@ -29,7 +29,7 @@ function Precisao(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">HDR</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/HDR.PNG" />
+                        <Card.Img variant="top" src="./img-armas/HDR.PNG" alt="HDR" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor monolitico<br/>
                             <strong>CANO:</strong> HDR 26,9" profissional<br/>
@@ -44,7 +44,7 @@ function Precisao(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">AX-50</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/AX-50.PNG" />
+                        <Card.Img variant="top" src="./img-armas/AX-50.PNG" alt="AX-50" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor Rytec AMR<br/>
                             <strong>CANO:</strong> Reta Sete FTAC<br/>
@@ -59,7 +59,7 @@ function Precisao(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">RYTEC AMR</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/RYTEC AMR.PNG" />
+                        <Card.Img variant="top" src="./img-armas/RYTEC AMR.PNG" alt="Rytec AMR" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor monolitico<br/>
                             <strong>CANO:</strong> Cano Estandido 660mm<br/>
@@ -74,7 +74,7 @@ function Precisao(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">PELINGTON 703</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/PELINGTON703.png" />
+                        <Card.Img variant="top" src="./img-armas/PELINGTON703.png" alt="Pelington 703" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
@@ -89,7 +89,7 @@ function Precisao(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">LW3 - TUNDRA</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/LW3TUNDRA.png" />
+                        <Card.Img variant="top" src="./img-armas/LW3TUNDRA.png" alt="LW3 Thundra" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
@@ -104,7 +104,7 @@ function Precisao(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">M82</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/M82.png" />
+                        <Card.Img variant="top" src="./img-armas/M82.png" alt="M82" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
