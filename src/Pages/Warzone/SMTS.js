@@ -1,9 +1,11 @@
-import React from 'react';
-import { Col, Container, Row, Card } from 'react-bootstrap';
+import React, {useState} from 'react';
+import { Col, Container, Row, Card, Modal, Button } from 'react-bootstrap';
 import NavBarra from '../../componentes/NavBarra';
 import Footer from '../../componentes/Footer';
 
 function SMTS(){
+    const [mac10, mac10Show] = useState(false);
+
     return(<>
 
     <NavBarra />
@@ -211,11 +213,11 @@ function SMTS(){
                             <Card.Title className="titulo-arma">BULLFROG</Card.Title>
                         <Card.Img variant="top" src="./img-armas/BULLFROG.png" alt="Bullfrog" />
                             <Card.Text>
-                            <strong>CANO:</strong> INDEFINIDO<br/>
-                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
-                            <strong>ALÇA:</strong> INDEFINIDO<br/>
-                            <strong>LENTE:</strong> INDEFINIDO<br/>
-                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            <strong>BOCA:</strong> Supressor GRU<br/>
+                            <strong>CANO:</strong> Força-Tarefa 7,4"<br/>
+                            <strong>LASER:</strong> Mira Laser GRU 5mw<br/>
+                            <strong>ACOPLAMENTO:</strong> Empunhadura Spetsnaz<br/>
+                            <strong>CABO:</strong> Empunhadura de Campo Spetsnaz<br/>
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -232,6 +234,12 @@ function SMTS(){
                             <strong>MUNIÇÃO:</strong> Carregador Rápido de Rajada 53 prj<br/>
                             <strong>CORONHA:</strong> Coronha de Arame<br/>
                             </Card.Text>
+
+                            <Button onClick={() => mac10Show(true)}>Assista o Video</Button>{' '}
+                            <Modal className="m-0" show={mac10} onHide={() => mac10Show(false)} centered>
+                                <Modal.Body className="video-base"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/YSWj5W6ZFX4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Modal.Body>
+                            </Modal>
+
                         </Card.Body>
                     </Card>
                 </Col>

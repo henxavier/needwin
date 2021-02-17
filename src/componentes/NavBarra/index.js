@@ -12,7 +12,7 @@ function NavBarra() {
     <Navbar fixed="top" collapseOnSelect expand="lg" variant="dark" className="barra">
 
     <Nav className="ml-5">
-      <Link to="/main">
+      <Link to="/">
       {<Image className="w-25 mx-auto" src={logo}></Image>}
       </Link>
     </Nav>

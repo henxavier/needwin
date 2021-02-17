@@ -117,8 +117,8 @@ function Atirador(){
                 <Col className="armascard" md="4" sm="6">
                     <Card>
                         <Card.Body>
-                            <Card.Title className="titulo-arma">M16 (CW)</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/M16 CW.png" alt="M16 (Cold War)" />
+                            <Card.Title className="titulo-arma">M16</Card.Title>
+                        <Card.Img variant="top" src="./img-armas/M16.png" alt="M16 (Cold War)" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>

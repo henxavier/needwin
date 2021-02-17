@@ -6,7 +6,8 @@ import "../../App.css";
 
 function Assalt(){
     const [kilo, kiloShow] = useState(false);
-    const [oden, odenShow] = useState(false)
+    const [oden, odenShow] = useState(false);
+    const [faac, faacShow] = useState(false)
 
     return(<>
 
@@ -170,7 +171,7 @@ function Assalt(){
                         <Card.Img variant="top" src="./img-armas/GRAU 556.png" alt="Grau 5.56" />
                             <Card.Text>
                             <strong>BOCA:</strong> Supressor mololitico<br/>
-                            <strong>CANO:</strong> Tempus 26.4" Archangel<br/>
+                            <strong>CANO:</strong> FSS 20.8" Nexus<br/>
                             <strong>ACOPLAMENTO:</strong> Empunhadura de Comando<br/>
                             <strong>MUNIÇÃO:</strong> Carregador de 60 Projéteis<br/>
                             <strong>LENTE:</strong> Lente VLK 3,0x<br/>
@@ -289,12 +290,18 @@ function Assalt(){
                             <Card.Title className="titulo-arma">FAAC 1</Card.Title>
                         <Card.Img variant="top" src="./img-armas/FAAC1.png" alt="FAAC 1" />
                             <Card.Text>
-                            <strong>CANO:</strong> INDEFINIDO<br/>
-                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
-                            <strong>ALÇA:</strong> INDEFINIDO<br/>
-                            <strong>LENTE:</strong> INDEFINIDO<br/>
-                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            <strong>BOCA:</strong> Supressor da Agência<br/>
+                            <strong>CANO:</strong> Força-Tarefa 19,5"<br/>
+                            <strong>ACOPLAMENTO:</strong> Empunhadura Brutal<br/>
+                            <strong>MUNIÇÃO:</strong> Carregador Rapido Rajada 55 Prj<br/>
+                            <strong>CORONHA:</strong> Coronha Combatente<br/>
                             </Card.Text>
+
+                            <Button onClick={() => faacShow(true)}>Assista o Video</Button>{' '}
+                            <Modal className="m-0" show={faac} onHide={() => faacShow(false)} centered>
+                                <Modal.Body className="video-base"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/a7n53vH2nMY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></Modal.Body>
+                            </Modal>
+
                         </Card.Body>
                     </Card>
                 </Col>
@@ -304,11 +311,11 @@ function Assalt(){
                             <Card.Title className="titulo-arma">GROZA</Card.Title>
                         <Card.Img variant="top" src="./img-armas/GROZA.png" alt="GROZA" />
                             <Card.Text>
-                            <strong>CANO:</strong> INDEFINIDO<br/>
-                            <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
-                            <strong>ALÇA:</strong> INDEFINIDO<br/>
-                            <strong>LENTE:</strong> INDEFINIDO<br/>
-                            <strong>CORONHA:</strong> INDEFINIDO<br/>
+                            <strong>BOCA:</strong> Supressor GRU<br/>
+                            <strong>CANO:</strong> CMV Militar 16.5<br/>
+                            <strong>ACOPLAMENTO:</strong> Empunhadura Spetsnaz<br/>
+                            <strong>LENTE:</strong> Microflex LED<br/>
+                            <strong>MUNIÇÃO:</strong> Carregador Rapido VDV 50 Prj<br/>
                             </Card.Text>
                         </Card.Body>
                     </Card>

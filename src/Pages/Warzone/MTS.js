@@ -119,7 +119,7 @@ function MTS(){
                     <Card>
                         <Card.Body>
                             <Card.Title className="titulo-arma">STONER 63</Card.Title>
-                        <Card.Img variant="top" src="./img-armas/STONE63.png" alt="Stoner 63" />
+                        <Card.Img variant="top" src="./img-armas/STONER63.png" alt="Stoner 63" />
                             <Card.Text>
                             <strong>CANO:</strong> INDEFINIDO<br/>
                             <strong>ACOPLAMENTO:</strong> INDEFINIDO<br/>
